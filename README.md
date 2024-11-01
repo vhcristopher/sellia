@@ -6,8 +6,16 @@ Este proyecto es una aplicación de chat en tiempo real que utiliza Vue.js para 
 
 Antes de comenzar, asegúrate de tener los siguientes componentes instalados en tu sistema:
 
+### Git
+- https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git
+### Windows
 - [Docker](https://www.docker.com/get-started)
 - [Docker Compose](https://docs.docker.com/compose/install/)
+
+
+### Docker Ubuntu
+- sudo apt-get install docker-compose-plugin
+- sudo apt-get install docker
 
 ## Instrucciones de Instalación
 
@@ -31,7 +39,7 @@ sellia/
 │   └── ... (otros archivos de frontend)
 ├── chat-room-backend/
 │   ├── Dockerfile
-│   └── ... (otros archivos de backend)
+│   └── ... (otros archivos de backend) /*Importante crear la carpeta de uploads para la carga de las imagenes*/
 └── docker-compose.yml
 ```
 
@@ -52,6 +60,7 @@ Ejecuta el siguiente comando en la raíz del proyecto para construir y ejecutar 
 
 ```bash
 docker-compose up --build
+Linux sudo docker-compose up --build
 ```
 
 Este comando realizará lo siguiente:
