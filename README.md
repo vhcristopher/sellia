@@ -100,9 +100,6 @@ mongosh "mongodb://localhost:27017/sellia" conecta a la base de datos sellia en 
 docker system prune -a --volumes
 
 
-### Adjunto Links de Funcionamiento y de Instalación en la carpeta de videos
-
-
-
-### Autor Cristopher Velazquez Hernandez
-### cristopher.velazquez.izcalli@gmail.com 
+### *********Adjunto Links de Funcionamiento y de Instalación en la carpeta de videos******####
+                            ### Autor Cristopher Velazquez Hernandez
+                            ### cristopher.velazquez.izcalli@gmail.com 
