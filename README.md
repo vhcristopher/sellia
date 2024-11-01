@@ -7,13 +7,17 @@ Este proyecto es una aplicación de chat en tiempo real que utiliza Vue.js para 
 Antes de comenzar, asegúrate de tener los siguientes componentes instalados en tu sistema:
 
 ### Git
+Tener Bien configurado Git para descargar repositorios
 - https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git
+- $ git config --global user.name "John Doe"
+- $ git config --global user.email johndoe@example.com
+
 ### Windows
 - [Docker](https://www.docker.com/get-started)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
 
-### Docker Ubuntu
+### Docker Ubuntu // Puede depender este comando de la distribucion de Linux que tengas
 - sudo apt-get install docker-compose-plugin
 - sudo apt-get install docker
 
@@ -43,16 +47,12 @@ sellia/
 └── docker-compose.yml
 ```
 
+
 ### 3. Variables de Entorno
-
-Crea un archivo `.env` en la carpeta `chat-room-backend` y define la variable de conexión a MongoDB:
-En este caso en especifico ya va el .env en el repositorio pero no deberia ir por temas de seguridad en este caso lo permiti por el .gotignore
 =>saltarias este paso hasta el ###4
+### Nota En este caso en especifico ya va el .env en el repositorio pero no deberia ir por temas de seguridad en este caso lo permiti por el .gotignore
+Crea un archivo `.env` en la carpeta `chat-room-backend` y define la variable de conexión a MongoDB:
 
-```
-no creo que necesites entrar a la base pero pues hay diferentes formas de hacerlo ya sea con mongosh o MondoBDCompase
-MONGO_URI=mongodb://mongo:27017/nombre_de_la_base_de_datos
-```
 
 ### 4. Construir y Ejecutar con Docker
 
