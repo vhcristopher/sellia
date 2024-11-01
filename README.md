@@ -15,6 +15,7 @@ Tener Bien configurado Git para descargar repositorios
 ### Windows
 - [Docker](https://www.docker.com/get-started)
 - [Docker Compose](https://docs.docker.com/compose/install/)
+- Es importante en Windows tenener abierto Docker Desktop
 
 
 ### Docker Ubuntu // Puede depender este comando de la distribucion de Linux que tengas
